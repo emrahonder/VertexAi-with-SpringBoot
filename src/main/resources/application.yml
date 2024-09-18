@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: geminiSpring
+  cloud:
+    gcp:
+      project-id: [YOUR-GCP-PROJECT-ID]
+      location: [YOUR-GCP-PROJECT-LOCATION]
+      model-name: gemini-1.5-pro # If you need you can update it as gemini-1.5-flash or newer
+
+
